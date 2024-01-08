@@ -15,20 +15,27 @@
 }
 
 .colmar{
-  font-size: 1.75em;
-  color: #A69026;
+  font-size: 2em;
+  color: #ff0000;
 }
 
 .academy{
-  font-size: 1.75em;
-  color: #8C8C8C;
+  font-size: 2em;
+  color: #ff0000;
 }
 
 .navlinks,
 ul{
+  list-style-type: none;
   margin-left: auto;
   column-gap: 16px;
   margin-right: 24px;
+}
+
+.navlinks a,
+.navlinks i {
+  text-decoration: none;
+  color: #ff0000; /* Määritä väri tarpeidesi mukaan */
 }
 
 
@@ -44,7 +51,7 @@ ul{
 /* "#title_small" only visible on smalle screen sizes */
 #hero{
   display: flex;
-  background-color: rgb(140, 140, 140, .9);
+  background-color: rgba(75, 5, 88, 0.9);
 }
 
 .heropic{
@@ -60,7 +67,7 @@ ul{
 }
 
 #start-here_btn{
-  background-color: #D9BB25;
+  background-color: #ff7402;
   border: none;
   font-size: 1.5em;
   font-weight: bold;
@@ -73,14 +80,14 @@ ul{
 }
 
 h1 {
-  color: #D9BB25;
+  color: #ff7402;
 }
 
 /* Content */
 #content{
   display: grid;
   grid-template-columns: 55% 45%;
-  background-color: rgb(218, 188, 37, .9);
+  background-color: rgba(171, 30, 196, 0.9);
 }
 
 /* Content section text formatting */
@@ -122,7 +129,7 @@ h1 {
 }
 
 .square:hover{
-  background-color: #a6912685;
+  background-color: #de2ee485;
 }
 
 .square > img{
@@ -146,7 +153,7 @@ h1 {
 }
 
 .sidetxt > a{
-  color: #0f5fb0;
+  color: #4928da;
 }
 
 /* Courses */
@@ -156,7 +163,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   gap: 32px;
-  background-color: rgb(140, 140, 140, .9);
+  background-color: rgb(75, 5, 88, 0.9);
   padding: 0 72px 32px;
 }
 
@@ -167,7 +174,7 @@ h1 {
 }
 
 .cards{
-  background-color: whitesmoke;
+  background-color: #ff7402;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2rem 2rem -1rem rgba(3, 1, 64, .5);
@@ -194,7 +201,7 @@ h1 {
   padding: 8px 0;
 }
 .description > p > a{
-  color: #0f5fb0;
+  color: #4928da;
   font-weight: bold;
   text-shadow: .5px 1.5px 2px #0f5fb045;
 }
@@ -204,6 +211,7 @@ h1 {
   display: grid;
   grid-template-columns: 55% 45%;
   margin-bottom: 32px;
+  background-color: rgba(171, 30, 196, 0.9);
 }
 #thesis > h2{
   margin: 32px 0;
@@ -239,7 +247,7 @@ div > video{
 /* Footer */
 footer{
   height: 100px;
-  background-color: #D9BB25;
+  background-color: #ff7402;
 }
 
 .copyright{
@@ -285,12 +293,12 @@ footer{
   }
 
   .colmar{
-    color: #D9BB25;
+    color: #ff7402;
     font-weight: 500;
   }
 
   .academy{
-    color: whitesmoke;
+    color: #ff7402;
   }
 
   /* Content Section */
