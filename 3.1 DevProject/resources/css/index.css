@@ -1,0 +1,25 @@
+/* Asteriski (*) tarkoittaa "kaikki elementit". 
+  Ensin kokeillaan ensimmäistä fonttia, ja jos se ei ole 
+  käytettävissä, kokeillaan seuraavaa jne.
+*/
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+ 
+ 
+h1 {
+  color: SeaGreen;
+}
+ 
+ 
+p, 
+li {
+  font-size: 18px;
+}
+ 
+
+/*Sääntö poistaa linkkien (<a>) alleviivauksen, 
+joka on tavallinen tapa osoittaa linkit.*/
+a {
+  text-decoration: none;
+}
