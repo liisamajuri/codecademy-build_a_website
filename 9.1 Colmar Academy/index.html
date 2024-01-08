@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="resources/style.css">
+  <link rel="stylesheet" href="resources/reset.css">
+  <title>Colmar Academy</title>
+</head>
+<body>
+
+<!-- Navbar -->
+  <nav id="navbar">
+    <div id="logo"><a href="#navbar"><img class="logo" src="resources/images/ic-logo.svg" alt="academy logo"></a></div>
+    <div id="title">
+      <span class="colmar">COLMAR</span>
+      <span class="academy">Academy</span>
+    </div>
+    <ul class="navlinks">
+      <li><a href="#start_btn">On Campus</a></li>
+      <li><a href="#courses">Online</a></li>
+      <li><a href="#">For Companies</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+  </nav>
+
+  <!-- Alternative Navbar Under 500px Screen Width -->
+
+  <nav id="nav_small">
+    <ul class="nav_svg">
+      <li id="logo_small"><a class="navlinks" href="#navbar"><img class="logo" src="resources/images/ic-logo.svg" alt="academy logo"></a></li>
+      <li><a class="navlinks" href="#courses"><img src="resources/images/ic-on-campus.svg" alt="courses"></a></li>
+      <li><a class="navlinks" href="#start_btn"><img src="resources/images/ic-online.svg" alt="on campus"></a></li>
+      <li><a class="navlinks" href="#"><img src="resources/images/ic-login.svg" alt="login"></a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <div id="hero">
+
+    <!-- "#title_small" only visible on smalle screen sizes -->
+    <div id="title_small">
+      <span class="colmar">COLMAR</span>
+      <span class="academy">Academy</span>
+    </div>
+
+    <img class="heropic" src="resources/images/banner.jpg" alt="Two girls studying">
+    <div class="herotext">
+      <h1>Learn something new everyday</h1>
+      <br>
+      <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <br>
+      <a href="#"><button id="start-here_btn" role="link">Start here</button></a>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div id="content">
+    <div>
+      <img class="contpic" src="resources/images/information-main.jpg" alt="Man reading">
+      <div class="practicing">
+        <h2>It doesn't hurt to keep practicing</h2>
+        <p class="practext">Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non
+          accumsan
+          urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</p>
+        <p class="emanuel">Emanuel, Sr Strategist at Hiring.com</p>
+      </div>
+    </div>
+
+    <!-- Side -->
+    <div class="side a">
+      <div class="square">
+        <img class="reg_img" src="resources/images/information-orientation-square.jpg" alt="people walking through a path">
+        <img class="alt_img" src="resources/images/information-orientation-mobile.jpg" alt="people walking through a path">
+        <div class="sidetxt">
+          <h3>Orientation date</h3>
+          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+          <a href="">Read more</a>
+        </div>
+      </div>
+      <div class="square">
+        <img class="reg_img" src="resources/images/information-campus-square.jpg" alt="some classroom of our campus" >
+        <img class="alt_img" src="resources/images/information-campus-mobile.jpg" alt="some classroom of our campus" >
+        <div class="sidetxt">
+          <h3>Our campus</h3>
+          <p>Find which campus is close by you</p>
+          <a href="">Read more</a>
+        </div>
+      </div>
+      <div class="square">
+        <img class="reg_img" src="resources/images/information-guest-lecture-square.jpg" alt="one of our guest speaker" >
+        <img class="alt_img" src="resources/images/information-guest-lecture-mobile.jpg" alt="one of our guest speaker" >
+        <div class="sidetxt">
+          <h3>Our guest lecture</h3>
+          <p>Join a keynote with Oliver Sack about music in meidcal treatment</p>
+          <a href="">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Courses -->
+  <div id="courses">
+    <h2 class="start">Start learnign</h2>
+    <div class="cards">       
+      <img src="resources/images/course-software.jpg" alt="">
+      <div class="description">
+        <h3>Software engineering</h3>
+        <p><a href="">COURSES</a></p>
+        <p>Web Development, Mobile Development, iOT, APIs</p>
+      </div>      
+    </div>
+    <div class="cards">
+      <img src="resources/images/course-computer-art.jpg" alt="">
+      <div class="description">
+        <h3>Computer art</h3>
+        <p><a href="">COURSES</a></p>
+        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+      </div>
+    </div>
+    <div class="cards">
+      <img src="resources/images/course-design.jpg" alt="">
+      <div class="description">
+        <h3>Design</h3>
+        <p><a href="">COURSES</a></p>
+        <p>User Experience Design, User Research, Visual Design</p>
+      </div>
+    </div>
+    <div class="cards">
+      <img src="resources/images/course-data.jpg" alt="">
+      <div class="description">
+        <h3>Data</h3>
+        <p><a href="">COURSES</a></p>
+        <p>Data Science, Big Data, SQL, Data Visualization</p>
+      </div>
+    </div>
+    <div class="cards">
+      <img src="resources/images/course-business.jpg" alt="">
+      <div class="description">
+        <h3>Business</h3>
+        <p><a href="">COURSES</a></p>
+        <p>Product Development, Business Development, Startup</p>
+      </div>
+    </div>
+    <div class="cards">
+      <img src="resources/images/course-marketing.jpg" alt="">
+      <div class="description">
+        <h3>Marketing</h3>
+        <p><a href="">COURSES</a></p>
+        <p>Analytics, Content Marketing, Mobile Marketing</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thesis -->
+  <div id="thesis">
+    <h2>Thesis Exhibit</h2>
+    <div class="video_section">
+      <div>
+        <video src="resources/videos/thesis.mp4" controls></video>
+      </div>
+      <div class="urban">
+        <h3>Reimagine urban</h3>
+        <p>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non
+          accumsan
+          urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</p>
+       </div>
+    </div>
+  
+    <!-- Thesis Side -->
+    <div class="side b">
+      <div class="square">
+        <img src="resources/images/thesis-fisma.jpg" alt="student working on some design project">
+        <div class="sidetxt">
+          <h3>Fisma: Design and Prototype</h3>
+          <p>Designer showcase of new prototype product</p>
+        </div>
+      </div>
+      <div class="square">
+        <img src="resources/images/thesis-now-and-then.jpg" alt="empire state building">
+        <div class="sidetxt">
+          <h3>Now and then</h3>
+          <p>Research study about New York</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <footer>
+      <ul class="copyright">
+        <li class="rights">©2016 Colmar Academy. All rights reserved</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
+    </footer>
+</body>
+</html>
